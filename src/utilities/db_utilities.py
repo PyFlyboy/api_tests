@@ -8,9 +8,9 @@ class DbUtility(object):
     def __init__(self):
         credens = TokenUtility()
         self.credens = credens.get_db_credentials()
-        self.host = DB_HOST['lab']['inig']['host']
-        self.port = DB_HOST['lab']['inig']['port']
-        self.database = DB_HOST['lab']['inig']['database']
+        self.host = DB_HOST['lab']['app']['host']
+        self.port = DB_HOST['lab']['app']['port']
+        self.database = DB_HOST['lab']['app']['database']
 
 
     def create_connection(self):

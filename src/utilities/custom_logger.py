@@ -8,7 +8,7 @@ def customLogger(logLevel=logging.DEBUG):
     # By default, log all messages
     logger.setLevel(logging.DEBUG)
 
-    fileHandler = logging.FileHandler("E:\\AutomationTests\\APITesty\\wbc_api\\logs\\logsautomation.log", mode='a')
+    fileHandler = logging.FileHandler("\\api_tests\\logs\\logsautomation.log", mode='a')
     fileHandler.setLevel(logLevel)
 
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s',

@@ -38,7 +38,7 @@ class GenericUtilities():
         logger.debug("Generating random email login and password.")
 
         if not domain:
-            domain = 'webchili.com'
+            domain = 'app.com'
         if not email_prefix:
             email_prefix = 'testuser'
 

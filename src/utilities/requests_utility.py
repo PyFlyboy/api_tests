@@ -13,7 +13,7 @@ class RequestsUtility(object):
 
     def __init__(self):
 
-        self.base_url = HOSTS['inig']
+        self.base_url = HOSTS['app']
 
 
     def assert_status_code(self):
