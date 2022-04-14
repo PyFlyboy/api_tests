@@ -1,0 +1,5 @@
+venv/
+src/configs
+docker
+Dockerfile
+logs
